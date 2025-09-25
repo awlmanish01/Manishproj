@@ -15,9 +15,10 @@ elif operator == "*":
 elif operator == "/":
     if num2 != 0:
         result = num1 / num2
-        print("Result:", result)
+        print("Result is:", result)
     else:
         print("Division by zero not allowed")
 else:
     print("Enter valid operator (+, -, *, /)")
+
 
